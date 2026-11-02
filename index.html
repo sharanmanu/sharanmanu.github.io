@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{border-bottom:1px solid #2c1a38;padding-bottom:8px;text-transform:none;letter-spacing:.04em;font-size:14px}
 .card{background:#241530;border:1px solid #2c1a38;border-radius:3px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:repeating-linear-gradient(0deg, transparent 0 39px, #2c1a38 39px 40px)}
+background-image:repeating-linear-gradient(0deg, transparent 0 39px, #2c1a38 39px 40px);
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>追踪的尾部采样是我的主要工作方向。 当前以硕士阶段研究角色的方式推进项目。</p>
+  <p>追踪的尾部采样是我的主要工作方向。</p>
   <ul class="traits">
     <li>没搞懂的地方就直说没搞懂。</li>
     <li>失败的过程也记下来。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>追踪的尾部采样的基线选择与对照设计</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>追踪的尾部采样的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>追踪的尾部采样里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（追踪的尾部采样场景）为追踪的尾部采样选哪个基线才不会被误导？用抽样与样本量分析比较至少两个基线在同一输入上的差异。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -110,9 +102,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 <section id="work">
   <h2>开源</h2>
   <ul class="repos">
-    <li><div class="name"><a href="https://github.com/sharanmanu/sampling_reproducible_pipeline_060d8699" rel="noopener">sampling_reproducible_pipeline_060d8699</a></div>
-      <div class="desc">（追踪的尾部采样场景）为追踪的尾部采样选哪个基线才不会被误导？用抽样与样本量分析比较至少两个基线在同一输入上的差异。</div>
-    </li>
     <li><div class="name"><a href="https://github.com/sharanmanu/tailsample" rel="noopener">tailsample</a></div>
       <div class="desc">对内容做归一化与分片比对，找出追踪的尾部采样上的重复项并按相似度归并</div>
     </li>
